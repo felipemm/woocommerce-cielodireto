@@ -1,0 +1,1013 @@
+***********************************************
+2013-01-19 14:57:50:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="c7e7a41c178d413d29399fa73a34daa6" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T14:57:50</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fab2d2121e3</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 14:57:51:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 14:57:51:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: 
+ERRO:      Código do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="c7e7a41c178d413d29399fa73a34daa6" versao="1.1.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T14:57:50</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fab2d2121e3</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 15:14:30:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="7c8652097d751d05428212a3f9ffef91" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T15:14:30</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fab2d2121e3</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 15:14:30:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 15:14:30:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fab2d2121e3&order=17
+OPERAÇÃO: 
+ERRO:      Código do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="7c8652097d751d05428212a3f9ffef91" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T15:14:30</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fab2d2121e3</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:34:17:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="3e492e53c47e9bbc74e2ff8b0f9444b8" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:34:17</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:34:17:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:34:49:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="aafad54abae6cad4bcc5147a21864d77" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:34:49</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:34:49:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:35:35:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="b74d372b64b5fc7f8102cc46235f3903" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:35:35</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:35:35:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:36:03:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="2152f23cbbdbc5948497a03e4698a077" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:36:03</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:36:03:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:36:57:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="2711ff9f69b521ca23856e3e1929a791" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:36:57</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:36:58:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:37:05:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="e0ff0c3bfb3ecb361a3bd07d5a63ea25" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:37:05</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:37:05:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:37:32:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="681a8d5ede9638b8d6a38820f91cac56" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:37:32</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:37:32:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:37:51:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="8ce5a2f8073f96c4e84c74d2b2807676" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:37:51</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae7252dde1</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:37:51:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae7252dde1&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:38:32:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8237d5c6&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="70b8df3eb4774adf1c2c4c82663770e0" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:38:32</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8237d5c6</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:38:32:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8237d5c6&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:39:33:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="e0ec4fd00f06a30627a1dd59b42f4c54" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:39:33</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:39:33:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:39:37:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="6a625635d04fe1c6e0a692448de37313" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:39:37</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:39:37:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: 
+
+***********************************************
+2013-01-19 18:40:12:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="d98d765c726a756546b7a29958946546" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:40:12</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:40:12:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:40:12:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="d98d765c726a756546b7a29958946546" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:40:12</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:41:13:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="a9bbe9e06ae04a5e9f9c0d5efc502cb4" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:41:13</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:41:13:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:41:13:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="a9bbe9e06ae04a5e9f9c0d5efc502cb4" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:41:13</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:41:27:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="662875a357881b545caf47d4dbf45aa5" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:41:27</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:41:27:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:41:27:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="662875a357881b545caf47d4dbf45aa5" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:41:27</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:42:20:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="f8dc7b3561dc263b6e79a3a2b4f29c8f" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:42:20</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:42:20:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:42:20:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="f8dc7b3561dc263b6e79a3a2b4f29c8f" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:42:20</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:42:32:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="cfa8e15672ab28e7942ff9e585ef1095" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:42:32</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:42:33:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:42:33:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="cfa8e15672ab28e7942ff9e585ef1095" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:42:32</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:08:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="60f9178310660bd99fe32e638877cb38" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:08</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:08:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:43:08:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="60f9178310660bd99fe32e638877cb38" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:08</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:38:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="48ea3bc0e69981ebb61ba8992d4a19ef" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:38</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:38:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:43:38:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="48ea3bc0e69981ebb61ba8992d4a19ef" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:38</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:47:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+ENVIO: <?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="b416c4c561f2d56bcdc4747b25f53c0e" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:47</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+
+***********************************************
+2013-01-19 18:43:47:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: Transacao
+RESPOSTA: <?xml version="1.0" encoding="ISO-8859-1"?>
+<erro xmlns="http://ecommerce.cbmp.com.br"><codigo>099</codigo><mensagem>Erro inesperado</mensagem></erro>
+
+
+***********************************************
+2013-01-19 18:43:47:000000 (UTC)
+DO ARQUIVO: /woocommerce/wp/?page_id=13&key=order_50fae8612c844&order=17
+OPERAÇÃO: 
+ERRO:      C�digo do erro: 099
+     Mensagem: Erro inesperado
+     XML de envio: 
+<?xml version="1.0" encoding="UTF-8" ?>
+<requisicao-transacao id="b416c4c561f2d56bcdc4747b25f53c0e" versao="1.2.0">
+   <dados-ec>
+      <numero>1001734898</numero>
+      <chave>e84827130b9837473681c2787007da5914d6359947015a5cdb2b8843db0fa832</chave>
+   </dados-ec>
+   <dados-pedido>
+      <numero>17</numero>
+      <valor>1000</valor>
+      <moeda>986</moeda>
+      <data-hora>2013-01-19T18:43:47</data-hora>
+      <idioma>PT</idioma>
+   </dados-pedido>
+   <forma-pagamento>
+      <bandeira>visa</bandeira>
+      <produto>1</produto>
+      <parcelas>1</parcelas>
+   </forma-pagamento>
+   <url-retorno>http%3A%2F%2Flocalhost%2Fwoocommerce%2Fwp%2F%3Fpage_id%3D14%26amp%3Border%3D17%26amp%3Bkey%3Dorder_50fae8612c844</url-retorno>
+   <autorizar>3</autorizar>
+   <capturar>false</capturar>
+</requisicao-transacao>
+

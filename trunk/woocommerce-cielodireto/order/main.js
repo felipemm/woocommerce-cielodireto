@@ -1,0 +1,1 @@
+function executeAction(action,orderID, tid, path){	alert(action + orderID + tid);	window.open(path+'executarTransacao.php?action='+action+'&order='+orderID+'&tid='+tid+'&path='+path);}
