@@ -278,6 +278,7 @@
 			}
 			catch (Exception $ex)
 			{
+				/*
 				$error_msg = "     Código do erro: " . $ex->getCode() . "\n";
 				$error_msg .= "     Mensagem: " . $ex->getMessage() . "\n";
 				
@@ -300,10 +301,12 @@
 				$this->logger->logWrite("ERRO: " . $error_msg);
 				
 				return true;
+				*/
 			}
 			
 			if($objResposta->getName() == "erro")
 			{
+				/*
 				$error_msg = "     Código do erro: " . $objResposta->codigo . "\n";
 				$error_msg .= "     Mensagem: " . $objResposta->mensagem . "\n";
 				// Gera página HTML
@@ -322,6 +325,7 @@
 				$this->logger->logWrite("ERRO: " . $error_msg, '');
 				// Dispara o erro
 				trigger_error(utf8_encode($error_msg), E_USER_ERROR);
+				*/
 			}
 		}
 
@@ -403,8 +407,12 @@
 			$msg = $this->XMLHeader() . "\n" .
 				    '<requisicao-captura id="' . md5(date("YmdHisu")) . '" versao="' . VERSAO . '">' . "\n   "
 				   	. '<tid>' . $this->tid . '</tid>' . "\n   "
-				   	. $this->XMLDadosEc() . "\n   "
-				   	. '<valor>' . $PercentualCaptura . '</valor>' . "\n";
+				   	. $this->XMLDadosEc() . "\n   ";
+			if($PercentualCaptura != null && $PercentualCaptura != "")
+			{
+				$msg .=	'<valor>' . $PercentualCaptura . '</valor>' . "\n";
+			}
+
 			if($anexo != null && $anexo != "")
 			{
 				$msg .=	'   <anexo>' . $anexo . '</anexo>' . "\n";

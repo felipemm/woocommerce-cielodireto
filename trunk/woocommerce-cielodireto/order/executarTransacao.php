@@ -4,6 +4,10 @@
 	include('keys.php');
 	require "../includes/pedido.php";
 	
+	global $woocommerce;
+	var_dump($woocommerce);
+	//$order = new WC_Order( $order_id );
+	
 	$objResposta = null;
 	
 	$action = $_GET["action"];
@@ -29,11 +33,12 @@
 			$objResposta = $Pedido->RequisicaoConsulta();
 			break; 
 	}
+	$order->add_order_note( __('NOvo Status: '.$objResposta->status, 'woothemes') );
 ?>
 <html>
 	<body>
 		<script>
-			alert(document.location.pathname);
+			//alert(document.location.pathname);
 			function close(){
 				window.opener.location.href = window.opener.location.href;
 				if (window.opener.progressWindow){
