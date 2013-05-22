@@ -277,9 +277,13 @@ function f2m_gateway_cielodireto() {
 //=======>>> PLUGIN AUTO UPDATE CODE <<<=======
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	//Plugin Update API Filters
-	add_filter('http_request_args', array(&$this, 'cielodireto_prevent_update_check'), 10, 2); //Making sure wordpress does not check this plugin into their repository
-	add_filter('pre_set_site_transient_update_plugins', array(&$this, 'cielodireto_check_for_plugin_update')); // Take over the update check
-	add_filter('plugins_api', array(&$this, 'cielodireto_plugin_api_call'), 10, 3); // Take over the Plugin info screen
+	add_filter('http_request_args', 'cielodireto_prevent_update_check', 10, 2); //Making sure wordpress does not check this plugin into their repository
+	add_filter('pre_set_site_transient_update_plugins', 'cielodireto_check_for_plugin_update'); // Take over the update check
+	add_filter('plugins_api', 'cielodireto_plugin_api_call', 10, 3); // Take over the Plugin info screen
+
+	//Plugin update parameters
+	$api_url     = 'http://update.wooplugins.com.br';
+	$plugin_slug = basename(dirname(__FILE__));
 
 	// TEMP: Enable update check on every request. Normally you don't need this! This is for testing only!
 	// NOTE: The
@@ -320,15 +324,15 @@ function f2m_gateway_cielodireto() {
 	//Descrição: Verificar a existência de atualizações em nossa API
 	//---------------------------------------------------------------------------------------------------
 	function cielodireto_check_for_plugin_update($checked_data) {
-		//global $api_url, $plugin_slug;
+		global $api_url, $plugin_slug;
 
 		//Comment out these two lines during testing.
 		if (empty($checked_data->checked))
 			return $checked_data;
 
 		$args = array(
-			'slug' => $this->plugin_slug,
-			'version' => $checked_data->checked[$this->plugin_slug .'/'. $this->plugin_slug .'.php'],
+			'slug' => $plugin_slug,
+			'version' => $checked_data->checked[$plugin_slug .'/'. $plugin_slug .'.php'],
 		);
 		$request_string = array(
 				'body' => array(
@@ -340,13 +344,13 @@ function f2m_gateway_cielodireto() {
 			);
 
 		// Start checking for an update
-		$raw_response = wp_remote_post($this->api_url, $request_string);
+		$raw_response = wp_remote_post($api_url, $request_string);
 
 		if (!is_wp_error($raw_response) && ($raw_response['response']['code'] == 200))
 			$response = unserialize($raw_response['body']);
 
 		if (is_object($response) && !empty($response)) // Feed the update data into WP updater
-			$checked_data->response[$this->plugin_slug .'/'. $this->plugin_slug .'.php'] = $response;
+			$checked_data->response[$plugin_slug .'/'. $plugin_slug .'.php'] = $response;
 
 		return $checked_data;
 	} //Fim da função cielodireto_check_for_plugin_update
@@ -358,14 +362,14 @@ function f2m_gateway_cielodireto() {
 	//Descrição: Controla a janela de informação do plugin
 	//---------------------------------------------------------------------------------------------------
 	function cielodireto_plugin_api_call($def, $action, $args) {
-		//global $plugin_slug, $api_url;
+		global $plugin_slug, $api_url;
 
-		if ($args->slug != $this->plugin_slug)
+		if ($args->slug != $plugin_slug)
 			return false;
 
 		// Get the current version
 		$plugin_info = get_site_transient('update_plugins');
-		$current_version = $plugin_info->checked[$this->plugin_slug .'/'. $this->plugin_slug .'.php'];
+		$current_version = $plugin_info->checked[$plugin_slug .'/'. $plugin_slug .'.php'];
 		$args->version = $current_version;
 
 		$request_string = array(
@@ -485,10 +489,6 @@ function f2m_gateway_cielodireto() {
 			
       		// Logs
       		if ($this->debug=='yes') $this->log = $woocommerce->logger();
-
-			//Plugin update parameters
-			$this->api_url     = 'http://update.wooplugins.com.br';
-			$this->plugin_slug = basename(dirname(__FILE__));
 
 			//Payment Gateway Actions			
 			add_action('woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
