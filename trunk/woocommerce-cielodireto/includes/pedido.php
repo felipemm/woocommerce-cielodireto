@@ -2,7 +2,7 @@
 
 	define("ENDERECO_BASE", "https://qasecommerce.cielo.com.br");
 	define("ENDERECO", ENDERECO_BASE."/servicos/ecommwsec.do");
-	define('VERSAO', "1.2.0");
+	define('VERSAO', "1.1.0");
 
 	require 'logger.php';
 
