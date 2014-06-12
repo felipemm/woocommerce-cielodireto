@@ -85,7 +85,7 @@ function f2m_gateway_cielodireto() {
 			update_post_meta($order->id, 'cielodireto_status' , (int)$objResposta->status);
 			
 			// We are here so lets check status and do actions
-			update_order($order, (int)$objResposta->status);
+			update_order($order, (int)$objResposta->status, $Pedido);
 		}
 		add_action('save_post', 'cielodireto_process_options');
 	} //Fim da função cielodireto_process_options
@@ -120,7 +120,7 @@ function f2m_gateway_cielodireto() {
 	//Descrição: atualiza o status do pedido de acordo com o status da cielo e o status definido no
 	//           painel de controle do plugin.
 	//---------------------------------------------------------------------------------------------------
-	function update_order($order, $status){
+	function update_order($order, $status, $PedidoCielo){
 		global $woocommerce;
 		
 		$new_status = '';
@@ -196,6 +196,10 @@ function f2m_gateway_cielodireto() {
 			//if new status is the one where we capture the money from cielo, then complete de order
 			if($new_status == $settings->settings['status_capturada'] && in_array($status, array(6))){
 				$order->payment_complete();
+				// Store MoIP Details
+				update_post_meta( $order->id, '_f2m_cielodireto_tid', $PedidoCielo->tid);
+				update_post_meta( $order->id, '_f2m_cielodireto_tipo_pagto', $PedidoCielo->formaPagamentoProduto);
+				update_post_meta( $order->id, '_f2m_cielodireto_parcelas', $PedidoCielo->formaPagamentoParcelas);
 			}
 			if($new_status == $settings->settings['status_cancelada'] && in_array($status, array(12,9))){ //CANCELADA, EM CANCELAMENTO
 				$order->cancel_order(__($note, 'woothemes'));
@@ -1068,7 +1072,7 @@ function f2m_gateway_cielodireto() {
         		$order = new WC_Order($order_id);
 
         		// We are here so lets check status and do actions
-				update_order($order, (int)$Pedido->status);
+				update_order($order, (int)$Pedido->status, $Pedido);
 				
 				//remove order from session
 				unset($woocommerce->session->pedido);

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<transacao versao="1.2.0" id="6560a94c-663b-4aec-9a45-e45f278e00b4" xmlns="http://ecommerce.cbmp.com.br">
+  <tid>100699306914AC581001</tid>
+  <pan>xFOA4riekQSRVrkNFE+Y5btjqzCS56SH6PoS/ZsIL3A=</pan>
+  <dados-pedido>
+    <numero>571634214</numero>
+    <valor>100</valor>
+    <moeda>986</moeda>
+    <data-hora>2012-05-07T08:53:54.978-03:00</data-hora>
+    <descricao>[origem:10.50.58.62]</descricao>
+    <idioma>PT</idioma>
+  </dados-pedido>
+  <forma-pagamento>
+    <bandeira>visa</bandeira>
+    <produto>1</produto>
+    <parcelas>1</parcelas>
+  </forma-pagamento>
+  <status>9</status>
+  <autenticacao>
+    <codigo>9</codigo>
+    <mensagem>Transacao sem autenticacao</mensagem>
+    <data-hora>2012-05-07T08:53:55.080-03:00</data-hora>
+    <valor>100</valor>
+    <eci>7</eci>
+  </autenticacao>
+  <autorizacao>
+    <codigo>9</codigo>
+    <mensagem>Transação autorizada</mensagem>
+    <data-hora>2012-05-07T08:53:55.104-03:00</data-hora>
+    <valor>100</valor>
+    <lr>00</lr>
+    <arp>635554</arp>
+    <nsu>354840</nsu>
+  </autorizacao>
+  <captura>
+    <codigo>9</codigo>
+    <mensagem>Transacao capturada com sucesso</mensagem>
+    <data-hora>2012-05-07T08:53:55.825-03:00</data-hora>
+    <valor>100</valor>
+  </captura>
+  <cancelamentos>
+    <cancelamento>
+      <codigo>9</codigo>
+      <mensagem>Transacao cancelada com sucesso</mensagem>
+      <data-hora>2012-05-07T08:55:27.621-03:00</data-hora>
+      <valor>100</valor>
+    </cancelamento>
+  </cancelamentos>
+</transacao>

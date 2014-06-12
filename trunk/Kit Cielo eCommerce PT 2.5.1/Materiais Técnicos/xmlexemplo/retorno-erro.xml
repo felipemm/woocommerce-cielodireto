@@ -1,0 +1,4 @@
+<erro xmlns="http://ecommerce.cbmp.com.br">
+	<codigo>002</codigo>
+	<mensagem>Credenciais inválidas.</mensagem>
+</erro>
