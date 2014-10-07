@@ -2,7 +2,7 @@
 
 	define("ENDERECO_BASE", "https://qasecommerce.cielo.com.br");
 	define("ENDERECO", ENDERECO_BASE."/servicos/ecommwsec.do");
-	define('VERSAO', "1.2.0");
+	define('VERSAO', "1.1.0");
 
 	require 'logger.php';
 
@@ -278,7 +278,7 @@
 			}
 			catch (Exception $ex)
 			{
-				/*
+				
 				$error_msg = "     Código do erro: " . $ex->getCode() . "\n";
 				$error_msg .= "     Mensagem: " . $ex->getMessage() . "\n";
 				
@@ -301,12 +301,12 @@
 				$this->logger->logWrite("ERRO: " . $error_msg);
 				
 				return true;
-				*/
+				
 			}
 			
 			if($objResposta->getName() == "erro")
 			{
-				/*
+				
 				$error_msg = "     Código do erro: " . $objResposta->codigo . "\n";
 				$error_msg .= "     Mensagem: " . $objResposta->mensagem . "\n";
 				// Gera página HTML
@@ -325,7 +325,7 @@
 				$this->logger->logWrite("ERRO: " . $error_msg, '');
 				// Dispara o erro
 				trigger_error(utf8_encode($error_msg), E_USER_ERROR);
-				*/
+				
 			}
 		}
 
